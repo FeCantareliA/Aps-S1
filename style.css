@@ -3,24 +3,95 @@
     height: 40px;
     opacity: 5;}
 
+.Carrinho{
+    width: 32px;
+    height:  32px;
+    border-radius: 50px;
+    background-color: white;
 
+}
+.hot{
+    color: yellow;
+}
 
 #perfil{
     width: 32px;
     height: 32px;
     background-color: white;
     border-radius: 50px; }
-#Carrinho{
-    width: 32px;
-    height:  32px;
-    border-radius: 50px;
-    background-color: white;
-}
 #Menu{
     background-color: rgb(150, 25, 25);
     opacity: 1;
     border-style:solid;
     border-radius: 15px;
    border-color: rgb(150, 25, 25);
+   height: 50px;
+  display: flex;
 }
 
+#Logo{
+    margin-left: 10px;
+    margin-right: 65px;
+    padding-right: 55px;
+    padding-left: 10px;
+    
+    
+    
+}
+#Carrinho{
+    margin-left: 65px;
+    margin-right:65px;
+    padding-right: 55px;
+    padding-left: 55px;
+    
+    
+    
+}
+#Promo{
+    margin-left: 65px;
+    margin-right: 65px;
+    padding-right: 55px;
+    padding-left: 55px;
+
+}
+#Login{
+    
+    margin-left: 65px;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 55px;
+    
+    
+    
+}
+#Contat{
+    
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-right: 55px;
+    padding-left: 55px;
+       
+}
+#Pes{
+    margin-left: 85px;
+    margin-right: 85px;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+Input{
+    height: 30px;
+    width: 360px;
+}
+table{width: 80%;
+border:solid;
+margin-left: 160px;}
+td{width: 10%;
+height: 15%;
+border:solid}
+.Produtos{
+    height: 180px;
+    width: 150px;
+    align-self: center;
+    padding-left:7px;
+}
+.nome{text-align:center;}
