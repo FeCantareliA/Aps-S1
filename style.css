@@ -81,7 +81,7 @@
 Input{
     height: 30px;
     width: 360px;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 table{width: 80%;
 border:solid;
@@ -89,6 +89,9 @@ margin-left: 160px;}
 td{width: 10%;
 height: 15%;
 border:solid}
+td{align-items: center;
+
+}
 .Produtos{
     height: 180px;
     width: 150px;
