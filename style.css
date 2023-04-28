@@ -1,97 +1,33 @@
+
+header{ width: 100%;height: 100px; background-color: #fff; position: relative; top: 0; border: solid; border-radius: 55px; align-items: center;}
+.Container-principal{
+font-family: verdana;color: #777;
+}
 .Logo{
-    width: 40px;
-    height: 40px;
-    opacity: 5;}
+    position: absolute;width: 300px; height: auto;    
+}
+.Logo img{
+    width: 90%;margin-left:10% ;
+}
+nav{position: absolute;right: 30px; bottom: 0px;}
+nav ul li{float: left; color: #fff; width: auto; margin: 0.8em; font-size: 1.5em;font-family: verdana;list-style: none;}
+nav ul li a{ text-decoration: none; color: #bbb;}
+nav ul li a:hover {color: #b13030;}
+nav ul li a img{width: 40px;margin-left:10% ;height: auto;}
+nav ul li input{width: 280px; height: 40px; border-radius: 20px;}
 
-.Carrinho{
-    width: 32px;
-    height:  32px;
-    border-radius: 50px;
-    background-color: white;
 
-}
-.hot{
-    color: yellow;
-}
-
-#perfil{
-    width: 32px;
-    height: 32px;
-    background-color: white;
-    border-radius: 50px; }
-#Menu{
-    background-color: rgb(150, 25, 25);
-    opacity: 1;
-    border-style:solid;
-    border-radius: 15px;
-   border-color: rgb(150, 25, 25);
-   height: 50px;
-  display: flex;
-}
-
-#Logo{
-    margin-left: 10px;
-    margin-right: 65px;
-    padding-right: 55px;
-    padding-left: 10px;
-    
-    
-    
-}
-#Carrinho{
-    margin-left: 65px;
-    margin-right:65px;
-    padding-right: 55px;
-    padding-left: 55px;
-    
-    
-    
-}
-#Promo{
-    margin-left: 65px;
-    margin-right: 65px;
-    padding-right: 55px;
-    padding-left: 55px;
-
-}
-#Login{
-    
-    margin-left: 65px;
-    margin-right: 10px;
-    padding-right: 10px;
-    padding-left: 55px;
-    
-    
-    
-}
-#Contat{
-    
-    margin-left: 75px;
-    margin-right: 75px;
-    padding-right: 55px;
-    padding-left: 55px;
-       
-}
-#Pes{
-    margin-left: 85px;
-    margin-right: 85px;
-    padding-right: 55px;
-    padding-left: 55px;
-}
-Input{
-    height: 30px;
-    width: 360px;
-    border-radius: 25px;
-}
 table{width: 80%;
-border:solid;
-margin-left: 160px;}
+border:double 15px rgb(201, 183, 21);
+
+margin-left: 160px;
+border-radius: 10px;}
+
 td{width: 10%;
 height: 15%;
-border:solid}
-td{align-items: center;
+border:solid 2px;
+align-items: center;}
 
-}
 .Produtos{
     height: 180px;
     width: 150px;
