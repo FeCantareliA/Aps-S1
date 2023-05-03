@@ -14,7 +14,7 @@ nav ul li{float: left; color: #fff; width: auto; margin: 0.8em; font-size: 1.5em
 nav ul li a{ text-decoration: none; color: #bbb;}
 nav ul li a:hover {color: #b13030;}
 nav ul li a img{width: 2.5em;margin-left:10% ;height: auto;}
-nav ul li input{width: 17.5em; height: 2.5em; border-radius: 1.25em;}
+nav ul li input{width: 30.5em; height: 2.5em; border-radius: 1.25em;}
 
 
 table{width: 80%;
@@ -35,8 +35,63 @@ align-items: center;}
     padding-left:0.4375em;
     margin-left: 4em;}
 .nome{text-align:center;}
+
 button{border-radius: 4em;}
 .itens{margin-left: 2em; background-color: #fff; border-color:#777; font-size: 0.8em; font-family: verdana;}
 .conectar{margin-left: 50em; margin-top: 10em;}
 .conectar a{text-decoration: none; font-size: 0.9em;}
 .coneperf{margin-left: 1em;}
+
+.modalDialog{
+    position: fixed;
+    font-family: verdana;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(181, 9, 9, 0.8);
+    z-index: 9999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in ;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    display: none;
+}
+.modalDialog:target{
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog div{
+    width: 31.25em;
+    position: relative;
+    margin: 10% auto;
+    padding: 0.3125em 1.25em 1.0.8125em 1.25em;
+    -webkit-border-radius: 0.75em;
+    -moz-border-radius: 0.75em;
+    border-radius: 0.625em;
+    background-color: #fff;
+}
+.modalDialog p {
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.close{
+    background-color: #606061;
+    color: #FFFFFF ;
+    line-height: 1.5625em;
+    position: absolute;
+    right: -0.75em;
+    text-align: center;
+    top: -0.625em;
+    width: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 0.75em;
+    -moz-order-radius: 0.75em;
+    border-radius: 0.75em;
+}
+.close:hover{
+    background-color: #b50909;
+}
