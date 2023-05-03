@@ -1,37 +1,42 @@
 
-header{ width: 100%;height: 100px; background-color: #fff; position: relative; top: 0; border: solid; border-radius: 55px; align-items: center;}
+header{ width: 100%;height: 6.25em; background-color: #fff; position: relative; top: 0; border: solid; border-radius:3.4375em; align-items: center;}
 .Container-principal{
 font-family: verdana;color: #777;
 }
 .Logo{
-    position: absolute;width: 300px; height: auto;    
+    position: absolute;width: 18.75em; height: auto;    
 }
 .Logo img{
     width: 90%;margin-left:10% ;
 }
-nav{position: absolute;right: 30px; bottom: 0px;}
+nav{position: absolute;right: 1.875em; bottom: 0em;}
 nav ul li{float: left; color: #fff; width: auto; margin: 0.8em; font-size: 1.5em;font-family: verdana;list-style: none;}
 nav ul li a{ text-decoration: none; color: #bbb;}
 nav ul li a:hover {color: #b13030;}
-nav ul li a img{width: 40px;margin-left:10% ;height: auto;}
-nav ul li input{width: 280px; height: 40px; border-radius: 20px;}
+nav ul li a img{width: 2.5em;margin-left:10% ;height: auto;}
+nav ul li input{width: 17.5em; height: 2.5em; border-radius: 1.25em;}
 
 
 table{width: 80%;
-border:double 15px rgb(201, 183, 21);
+border:double 0.9375em rgb(201, 183, 21);
 
-margin-left: 160px;
-border-radius: 10px;}
+margin-left: 5em;
+border-radius: 0.625em;}
 
 td{width: 10%;
 height: 15%;
-border:solid 2px;
+border:solid 0.125em;
 align-items: center;}
 
 .Produtos{
-    height: 180px;
-    width: 150px;
+    height: 11.25em;
+    width: 9.375em;
     align-self: center;
-    padding-left:7px;
-}
+    padding-left:0.4375em;
+    margin-left: 4em;}
 .nome{text-align:center;}
+button{border-radius: 4em;}
+.itens{margin-left: 2em; background-color: #fff; border-color:#777; font-size: 0.8em; font-family: verdana;}
+.conectar{margin-left: 50em; margin-top: 10em;}
+.conectar a{text-decoration: none; font-size: 0.9em;}
+.coneperf{margin-left: 1em;}
