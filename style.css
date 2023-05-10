@@ -19,9 +19,12 @@ nav ul li input{width: 30.5em; height: 2.5em; border-radius: 1.25em;}
 
 table{width: 80%;
 border:double 0.9375em rgb(201, 183, 21);
-
+margin-top: 1em;
 margin-left: 5em;
 border-radius: 0.625em;}
+#promo1{
+    border: dashed 0.5375em rgb(201, 183, 21);
+}
 
 td{width: 10%;
 height: 15%;
@@ -34,7 +37,9 @@ align-items: center;}
     align-self: center;
     padding-left:0.4375em;
     margin-left: 4em;}
-.nome{text-align:center;}
+table tr td p{text-align:center;}
+.nome{color: rgb(153, 153, 16);}
+.preço{color: #b50909;}
 
 button{border-radius: 4em;}
 .itens{margin-left: 2em; background-color: #fff; border-color:#777; font-size: 0.8em; font-family: verdana;}
@@ -95,3 +100,39 @@ margin-bottom: 5%;
 .close:hover{
     background-color: #b50909;
 }
+aside{border: solid;}
+#prod{ margin-top: 0.5em;
+    width: 17em;
+    height: 16em;
+position:relative;
+margin: 0 0 0 0;
+}
+aside img{ width: 15em;
+height: 16em;
+margin-left: 1em;
+margin-right: 1em
+}
+#name{text-align: center;
+    margin-top: 0.2em;
+    width: 17em;
+    height: 2em;
+    padding-bottom: 0.4em;
+    position: relative;
+}
+#name p{font-size: 1.2em;}
+.description{position:relative;
+top: -20em;
+left: 20em;
+width: 40em;
+margin-top: 0.8em;
+margin-right: 0em;
+margin-left: 0em;
+margin-bottom: 0em;
+border: solid 0.2em;
+
+}
+section{width: 17em}
+.exs{border: solid;width: 40em;position: relative; top: -19.7em; left: 20em;}
+.exs p{margin: 0 0 0 0; width: 5em; margin-top: 0.8em;}
+.exsb{position: relative; top: -2em; left: 15em; height: 3em;margin-left: 3em;}
+.dis{border: solid; width: 17em; position: relative; top: -38.7em; left: 65em;}
