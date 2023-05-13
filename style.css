@@ -18,12 +18,12 @@ nav ul li input{width: 30.5em; height: 2.5em; border-radius: 1.25em;}
 
 
 table{width: 80%;
-border:double 0.9375em rgb(201, 183, 21);
+border:double 0.9375em rgb(204, 204, 204);
 margin-top: 1em;
 margin-left: 5em;
 border-radius: 0.625em;}
 #promo1{
-    border: dashed 0.5375em rgb(201, 183, 21);
+    border: dashed 0.5375em rgb(179, 179, 179);
 }
 
 td{
@@ -38,8 +38,8 @@ align-items: center;}
     padding-left:0.4375em;
     margin-left: 4em;}
 table tr td p{text-align:center;}
-.nome{color: rgb(153, 153, 16);}
-.preço{color: #b50909;}
+.nome{color: rgb(255, 92, 51);}
+.preço{color: #ff4d4d;}
 
 button{border-radius: 4em;}
 .itens{margin-left: 2em; background-color: #fff; border-color:#777; font-size: 0.8em; font-family: verdana;}
@@ -49,7 +49,7 @@ button{border-radius: 4em;}
 
 .modalDialog{
     position: fixed;
-    font-family: verdana;
+    font-family: verdana; font-size: 1.35em;
     top: 0;
     right: 0;
     bottom: 0;
@@ -77,6 +77,26 @@ button{border-radius: 4em;}
     -moz-border-radius: 0.75em;
     border-radius: 0.625em;
     background-color: #fff;
+}
+.modalbody1{
+    position:relative;
+    top:8em;
+    left:10em;
+}
+.modalbody2{
+    position:relative;
+    top:16em;
+    left:15em;
+}
+.modalbody3{
+    position:relative;
+    top:11em;
+    left:10em;
+}
+.modalbody4{
+    position:relative;
+    top:21em;
+    left:14.2em;
 }
 .modalDialog p {
 margin-top: 5%;
