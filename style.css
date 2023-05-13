@@ -1,52 +1,4 @@
-
-header{ width: 100%;height: 6.25em; background-color: #fff; position: relative; top: 0; border: solid; border-radius:3.4375em; align-items: center;}
-.Container-principal{
-font-family: verdana;color: #777;
-}
-.Logo{
-    position: absolute;width: 18.75em; height: auto;    
-}
-.Logo img{
-    width: 90%;margin-left:10% ;
-}
-nav{position: absolute;right: 1.875em; bottom: 0em;}
-nav ul li{float: left; color: #fff; width: auto; margin: 0.8em; font-size: 1.5em;font-family: verdana;list-style: none;}
-nav ul li a{ text-decoration: none; color: #bbb;}
-nav ul li a:hover {color: #b13030;}
-nav ul li a img{width: 2.5em;margin-left:10% ;height: auto;}
-nav ul li input{width: 30.5em; height: 2.5em; border-radius: 1.25em;}
-
-
-table{width: 80%;
-border:double 0.9375em rgb(201, 183, 21);
-margin-top: 1em;
-margin-left: 5em;
-border-radius: 0.625em;}
-#promo1{
-    border: dashed 0.5375em rgb(201, 183, 21);
-}
-
-td{width: 10%;
-height: 15%;
-border:solid 0.125em;
-align-items: center;}
-
-.Produtos{
-    height: 11.25em;
-    width: 9.375em;
-    align-self: center;
-    padding-left:0.4375em;
-    margin-left: 4em;}
-table tr td p{text-align:center;}
-.nome{color: rgb(153, 153, 16);}
-.preço{color: #b50909;}
-
-button{border-radius: 4em;}
-.itens{margin-left: 2em; background-color: #fff; border-color:#777; font-size: 0.8em; font-family: verdana;}
-.conectar{margin-left: 50em; margin-top: 10em;}
-.conectar a{text-decoration: none; font-size: 0.9em;}
-.coneperf{margin-left: 1em;}
-
+header nav div div form a img{width: 2.5em; height: 2.5em;}
 .modalDialog{
     position: fixed;
     font-family: verdana;
@@ -78,61 +30,8 @@ button{border-radius: 4em;}
     border-radius: 0.625em;
     background-color: #fff;
 }
-.modalDialog p {
-margin-top: 5%;
-margin-bottom: 5%;
-}
-.close{
-    background-color: #606061;
-    color: #FFFFFF ;
-    line-height: 1.5625em;
-    position: absolute;
-    right: -0.75em;
-    text-align: center;
-    top: -0.625em;
-    width: 1.5em;
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-border-radius: 0.75em;
-    -moz-order-radius: 0.75em;
-    border-radius: 0.75em;
-}
-.close:hover{
-    background-color: #b50909;
-}
-aside{border: solid;}
-#prod{ margin-top: 0.5em;
-    width: 17em;
-    height: 16em;
-position:relative;
-margin: 0 0 0 0;
-}
-aside img{ width: 15em;
-height: 16em;
-margin-left: 1em;
-margin-right: 1em
-}
-#name{text-align: center;
-    margin-top: 0.2em;
-    width: 17em;
-    height: 2em;
-    padding-bottom: 0.4em;
-    position: relative;
-}
-#name p{font-size: 1.2em;}
-.description{position:relative;
-top: -20em;
-left: 20em;
-width: 40em;
-margin-top: 0.8em;
-margin-right: 0em;
-margin-left: 0em;
-margin-bottom: 0em;
-border: solid 0.2em;
-
-}
-section{width: 17em}
-.exs{border: solid;width: 40em;position: relative; top: -19.7em; left: 20em;}
-.exs p{margin: 0 0 0 0; width: 5em; margin-top: 0.8em;}
-.exsb{position: relative; top: -2em; left: 15em; height: 3em;margin-left: 3em;}
-.dis{border: solid; width: 17em; position: relative; top: -38.7em; left: 65em;}
+.prodimage{width:10em; height: 10em;}
+#Promo2{width: 70%; position: relative; left: 17.9em;}
+.col-2{border:solid 0.1em; position: relative; top:0.05em}
+.col{border:solid 0.1em; position: relative; top:3.8em}
+footer{position: relative; top:3em}

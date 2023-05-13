@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ecommerce</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <link rel="icon" href="Asserts/Carrinho.png">
+</head>
+<body>
+    <header>
+        <div class="Container-principal";>
+            <div class="Logo">
+                <a href="Index.html">
+                    <img src="asserts/Icon.png"; class="Logo";/></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><input placeholder="  Pesquisar"; aria-label="Pesquisar"></li>
+                    <li><a href="#Promo2">Promoções</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href=""><img src="Asserts/Carrinho.png" ; alt="Carrinho"; title="Carrinho"></a></li>
+                    <li><a href="#openModal"><img src="Asserts/perfil.png" ; alt="Login"; title="Login";></a></li>
+                </ul>
+            </nav>     
+        </div>
+    </header>
+    <div id="openModal"; class="modalDialog">
+        <div>
+            <a href="#close" class="close">X</a>
+            <label>Login</label><br/>
+            <input type="text" placeholder="E-mail/Usuário">
+            <br/>
+            <label>Senha</label><br/>
+            <input type="password" placeholder="Password">
+        </div>
+    </div>
+	<table id="carrinho">	
+		<tr>
+		<td class="carprod"><p>Passa Letra</p></td>
+		<td class="carprice"><p>R$ 100,00</p></td>
+		</tr>
+		<tr>
+		<td class="carprod"><p>amkvmblkvgn</p></td>
+		<td class="carprice"><p>108037619465</p></td>
+		</tr>
+		<tr>
+		<td class="total"><p>Total</p></td>
+		<td ><p id="result">R$ 527,00</p></td>
+		</tr>
+        
+
+	
+	</table>
+	
+	<footer>
+	<hr/>
+        <dl id="contato">
+            <h3>Contato</h3>
+                <dt>Email:</dt>
+                <dd>generico123@gmail.com</dd>
+				<dt>Telefone:</dt>
+                <dd>(99)1234-5678</dd>
+        </dl>
+	<hr class="effect"/>
+	<div class="sobre">
+		<h3>Sobre</h3>
+		<p>Este site foi feito com objetivo de estudar a criação e estruturação de um ecommerce, desta forma não é possível realizar compra de nenhum dos produtos listados, caso queira, recomendamos buscar em sites de comércios parceiros à distribuidora do produto ou autorizados</p>
+	</div>
+    </footer>
+</body>
+</html>
